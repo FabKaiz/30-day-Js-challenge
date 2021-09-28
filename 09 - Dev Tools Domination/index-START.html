@@ -18,29 +18,39 @@
     }
 
     // Regular
+    console.log('Hello World');
 
     // Interpolated
 
+    console.log('Hello', '🛠');
     // Styled
+    console.log('%c styled', 'font-size: 20px; color:red;');
 
     // warning!
+    console.warn('this is console.warn');
 
     // Error :|
+    console.error('this is console.error');
 
     // Info
+    console.info('this is console.info');
 
     // Testing
+    console.assert(1 === 1 || 'one');
 
     // clearing
+    // console.clear();
 
     // Viewing DOM Elements
-
-    // Grouping together
+    console.dir(document.body);
 
     // counting
+    console.count('Something');
+    console.count('Something');
 
     // timing
-
+    console.time('test') // starting
+    console.timeEnd('test'); // ending
   </script>
 </body>
 </html>
