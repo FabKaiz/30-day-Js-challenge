@@ -91,4 +91,9 @@ nav a {
   position: fixed;
   top: 0;
   width: 100%;
+  transition: all 0.5s;
+}
+
+.sticky li.logo {
+  max-width: 500px;
 }
